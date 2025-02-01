@@ -61,7 +61,7 @@ export const myCustomTooltipDefaults: MatTooltipDefaultOptions = {
   providers: [
     { provide: MAT_TOOLTIP_DEFAULT_OPTIONS, useValue: myCustomTooltipDefaults },
   ],
-  styleUrl: './add-user.component.css',
+  styleUrl: './add-user.component.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AddUserComponent {

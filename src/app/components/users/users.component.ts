@@ -21,7 +21,7 @@ import { workoutOptions } from '@/app/components/add-user/add-user.component';
     CommonModule,
   ],
   templateUrl: './users.component.html',
-  styleUrl: './users.component.css',
+  styleUrl: './users.component.scss',
 })
 export class UsersComponent implements OnInit, AfterViewInit {
   @ViewChild(MatPaginator)

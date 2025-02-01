@@ -21,7 +21,7 @@ Chart.register(CategoryScale);
   standalone: true,
   imports: [CommonModule, MatListModule],
   templateUrl: './progress-chart.component.html',
-  styleUrl: './progress-chart.component.css',
+  styleUrl: './progress-chart.component.scss',
 })
 export class ProgressChartComponent implements OnInit, AfterViewInit {
   [x: string]: any;
